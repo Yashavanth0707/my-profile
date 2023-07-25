@@ -1,0 +1,164 @@
+/* body responsive */
+@media (max-width: 320px) {
+    .body-title {
+      font-size: 18px;
+    }
+  
+    .header-role {
+      font-size: 14px;
+    }
+  }
+  
+  /* For larger phones and small tablets */
+  @media (min-width: 321px) and (max-width: 767px) {
+    .body-title {
+      font-size: 30px;
+    }
+  
+    .header-role {
+      font-size: 18px;
+    }
+  }
+  
+  /* For tablets and smaller laptops */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .body-title {
+      font-size: 50px;
+    }
+  
+    .header-role {
+      font-size: 25px;
+    }
+  }
+  
+  /* For larger laptops and desktops */
+  @media (min-width: 1024px) {
+    .body-title {
+      font-size: 100px;
+    }
+  
+    .header-role {
+      font-size: 50px;
+    }
+  }
+
+
+
+  /* header component reponsiveness */
+
+  /* For smaller phones (e.g., iPhone 5/SE) */
+@media (max-width: 320px) {
+    .header-title {
+      font-size: 18px;
+    }
+  
+    .menu {
+      display: flex;
+    }
+  
+    .menu ul {
+      flex-direction: column;
+    }
+  
+    .menu li {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* For larger phones (e.g., iPhone 6/7/8, Galaxy S5) */
+  @media (min-width: 321px) and (max-width: 767px) {
+    .header-title {
+      font-size: 20px;
+    }
+  
+    .menu {
+      display: flex;
+    }
+  
+    .menu ul {
+      flex-direction: column;
+    }
+  
+    .menu li {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* For small tablets (e.g., iPad, Galaxy Tab) */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .header-title {
+      font-size: 22px;
+    }
+  
+    .menu {
+      display: flex;
+    }
+  
+    .menu ul {
+      flex-direction: row;
+    }
+  
+    .menu li {
+      margin-left: 20px;
+      margin-bottom: 0;
+    }
+  }
+  
+  /* For larger tablets and smaller laptops */
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    .header-title {
+      font-size: 24px;
+    }
+  
+    .menu {
+      display: flex;
+    }
+  
+    .menu ul {
+      flex-direction: row;
+    }
+  
+    .menu li {
+      margin-left: 20px;
+      margin-bottom: 0;
+    }
+  }
+  
+  /* For larger laptops and desktops */
+  @media (min-width: 1280px) {
+    .header-title {
+      font-size: 26px;
+    }
+  
+    .menu {
+      display: flex;
+    }
+  
+    .menu ul {
+      flex-direction: row;
+    }
+  
+    .menu li {
+      margin-left: 20px;
+      margin-bottom: 0;
+    }
+  }
+
+
+  /* contact response */
+
+  @media screen and (max-width: 600px) {
+    .contact-email {
+      font-size: 25px;
+      padding: 8px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .contact-email {
+      font-size: 16px;
+      padding: 6px;
+    }
+  }
